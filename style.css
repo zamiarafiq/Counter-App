@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #55d1cb, #bea2e5);
+}
+
+/* Counter Box */
+.counter-box {
+  background: rgb(82, 164, 231);
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #161820;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Number Display */
+#Value {
+  font-size: 55px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+button {
+  padding: 12px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.25s ease;
+  font-weight: 600;
+}
+
+/* Button Colors */
+#increment {
+  background: #4caf50;
+  color: rgb(238, 241, 243);
+}
+
+#decrement {
+  background: #f44336;
+  color: rgb(244, 245, 247);
+}
+
+#reset {
+  background: #2196f3;
+  color: #d2dce4;
+}
+
+/* Hover Effects */
+button:hover {
+  transform: scale(1.06);
+  opacity: 0.9;
+}
